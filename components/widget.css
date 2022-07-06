@@ -1,0 +1,48 @@
+.first-border {
+  width: min-content;
+  margin: var(--overlay);
+  padding: var(--overlay);
+  background-color: var(--tile3);
+}
+
+.second-border {
+  width: min-content;
+  margin: var(--overlay);
+  padding: var(--overlay);
+  background-color: var(--tile4);
+}
+
+.third-border {
+  width: min-content;
+  margin: var(--overlay);
+  padding: var(--overlay);
+  background-color: var(--tile5);
+}
+
+.content {
+  margin: var(--overlay);
+  padding: var(--overlay);
+  width: min-content;
+  background-color: var(--tile6);
+}
+
+.content.input-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input {
+  padding: 8px;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 8px;
+  font-size: 2em;
+  white-space: nowrap;
+  color: var(--text1);
+  font-family: Avenir;
+  padding-left: 20px;
+  padding-right: 20px;
+}

@@ -1,0 +1,15 @@
+.toggle-theme {
+  display: flex;
+  flex: 1;
+}
+
+.toggle-theme div {
+  display: flex;
+  margin-right: 1.5rem;
+  flex-direction: column;
+}
+
+.radio-input {
+  width: 1.5rem;
+  height: 1.5rem;
+}
