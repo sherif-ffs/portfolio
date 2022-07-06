@@ -1,6 +1,6 @@
-const linksBlockTempalte = document.createElement('template');
+const linksBlockTemplate = document.createElement('template');
 
-linksBlockTempalte.innerHTML =
+linksBlockTemplate.innerHTML =
   `
   <link href="../index.css" rel="stylesheet"></link>
   <link href="./components/linksBlock.css" rel="stylesheet"></link>
@@ -24,7 +24,7 @@ linksBlockTempalte.innerHTML =
 class LinksBlock extends HTMLElement {
   connectedCallback() {
     const shadowRoot = this.attachShadow({ mode: 'open' });
-    shadowRoot.appendChild(linksBlockTempalte.content);
+    shadowRoot.appendChild(linksBlockTemplate.content);
   }
 }
 

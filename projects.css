@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-main {
+  max-width: 800px;
+  width: 600px;
+  height: min-content;
+  margin: -50px auto 0;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  font-family: Avenir;
+  border-left: 25px solid var(--tile3);
+  border-top: 25px solid var(--tile4);
+  border-right: 25px solid var(--tile5);
+  border-bottom: 25px solid var(--tile6);
+}
+
+.projects-heading {
+  font-size: 2em;
+}
+
+.project {
+  margin: 10px 0;
+}
+
+.project a {
+  font-size: 1.25em;
+  color: var(--text1);
+  font-weight: bold;
+  font-family: Avenir;
+}
+
+.anime {
+  position: absolute;
+  font-size: 12px;
+  right: 0;
+  color: var(--text1);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dance {
+  top: 0;
+}
+
+.square {
+  bottom: 40px;
+}

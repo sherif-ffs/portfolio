@@ -140,10 +140,10 @@ main {
   max-width: 1200px;
   height: 500px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 150px;
   display: grid;
   grid-template-columns: min-content auto;
-  gap: 10px;
+  gap: 15px;
 }
 
 p {

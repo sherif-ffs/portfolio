@@ -21,7 +21,7 @@ class ProjectsBlock extends HTMLElement {
           A bookmarking app written using Next.js, Typescript, and Node.
           </p>
         </div>
-        <a href="#" class="more-projects">More Projects -></a>
+        <a href="projects.html" class="more-projects">More Projects -></a>
         </div>
         </div>
         </div>
