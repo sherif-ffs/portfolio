@@ -2,14 +2,30 @@ class ProjectsBlock extends HTMLElement {
   connectedCallback() {
     this.innerHTML =
       `
+      <link href="./components/projectsBlock.css" rel="stylesheet"></link>
       <section>
+      <div class="border-one">
+        <div class="border-two">
+          <div class="border-three">
+          <div class="border-four">
         <div class="project">
-          <a href="https://under-garden.vercel.app/" target="_blank">Under Garden</a> is a tunneling/fallin sand game built using WASM, Rust, and GLSL.
+          <a href="https://under-garden.vercel.app/" target="_blank">Under Garden</a>
+          <p>
+          A tunneling & falling sand game built using WASM, Rust, and GLSL.
+          </p>
         </div>
+
         <div class="project">
-        <a href="https://rabbit-silk.vercel.app/" target="_blank">Hoard</a> is a bookmarking app written using Next.js, Typescript, and Node.
+          <a href="https://rabbit-silk.vercel.app/" target="_blank">Hoard</a> 
+          <p>
+          A bookmarking app written using Next.js, Typescript, and Node.
+          </p>
         </div>
-        <a href="#" class="more-projects">More Projects</a>
+        <a href="#" class="more-projects">More Projects -></a>
+        </div>
+        </div>
+        </div>
+        </div>
       </section>
     `;
   }

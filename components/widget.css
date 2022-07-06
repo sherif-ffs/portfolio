@@ -19,13 +19,6 @@
   background-color: var(--tile5);
 }
 
-.content {
-  margin: var(--overlay);
-  padding: var(--overlay);
-  width: min-content;
-  background-color: var(--tile6);
-}
-
 .content.input-wrapper {
   padding-left: 20px;
   padding-right: 20px;
@@ -38,11 +31,15 @@ input {
 
 h3 {
   margin: 0;
-  padding: 8px;
-  font-size: 2em;
+  font-size: 1.5em;
   white-space: nowrap;
   color: var(--text1);
   font-family: Avenir;
-  padding-left: 20px;
-  padding-right: 20px;
+}
+
+.contact a {
+  font-size: 20px;
+  color: var(--text2);
+  font-weight: bold;
+  font-family: Avenir;
 }

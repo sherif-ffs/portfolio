@@ -1,0 +1,6 @@
+.contact a {
+  font-size: 20px;
+  color: var(--text2);
+  font-weight: bold;
+  font-family: Avenir;
+}

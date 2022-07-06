@@ -4,8 +4,10 @@ class ButtonWidget extends HTMLElement {
       `
       <link href="./components/buttonWidget.css" rel="stylesheet"></link>
       <section class="buttons">
-        <div class="second-border">
-          <div class="third-border">
+      <div class="border-one">
+      <div class="border-two">
+        <div class="border-three">
+          <div class="border-four">
             <div class="content input-wrapper">
               <form class="toggle-theme">
                 <div>
@@ -20,6 +22,8 @@ class ButtonWidget extends HTMLElement {
               </form>
             </div>
           </div>
+        </div>
+        </div>
         </div>
       </section>
     `;
