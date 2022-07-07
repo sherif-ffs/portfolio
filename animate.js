@@ -55,9 +55,9 @@ document.addEventListener("DOMContentLoaded", function() {
         frameCounts[name] = 0;
       }
       var frame = frames[name][frameCounts[name]];
-      if (frame) {
+      if (frame && document.querySelector(`.${name}`)) {
         document.querySelector(`.${name}`).innerText = frame;
       }
     })
-  }, 100);
+  }, 120);
 });
