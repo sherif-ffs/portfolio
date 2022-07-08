@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Chango&family=Lato:wght@300;400;700;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Patrick+Hand&display=swap');
 * {
   --brand-hue: 200;
   --brand-saturation: 100%;
@@ -61,6 +62,7 @@
   --overlay: var(--spacing) calc(var(--spacing) * -3) var(--spacing) var(--spacing);
   --size-one: 10px;
   --size-two: 10px;
+  --font-main: Lato;
 }
 
 [color-scheme="light"] {

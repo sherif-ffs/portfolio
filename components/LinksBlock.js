@@ -10,9 +10,9 @@ linksBlockTemplate.innerHTML =
         <div class="border-three">
           <div class="border-four">
           <div class="contact">
-            <a href="#">Github</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Email</a>
+            <a href="https://github.com/sherif-ffs" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/selmetwa/" target="_blank">LinkedIn</a>
+            <a href="mailto:selmetwa@gmail.com" target="_blank">Email</a>
           </div>
           </div>
         </div>

@@ -31,15 +31,16 @@ input {
 
 h3 {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.75em;
   white-space: nowrap;
   color: var(--text1);
-  font-family: Avenir;
+  /* font-family: Avenir; */
+  font-family: var(--font-main);
 }
 
 .contact a {
   font-size: 20px;
   color: var(--text2);
   font-weight: bold;
-  font-family: Avenir;
+  font-family: var(--font-main);
 }
