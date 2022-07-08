@@ -1,3 +1,10 @@
+.contact {
+  display: flex;
+  flex-wrap: nowrap;
+  width: max-content;
+  gap: 15px;
+}
+
 .contact a {
   font-size: 20px;
   color: var(--text2);

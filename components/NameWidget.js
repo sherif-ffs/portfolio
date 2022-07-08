@@ -20,10 +20,9 @@ class NameWidget extends HTMLElement {
               <div class="border-three">
                 <div class="border-four">
                   <p>
-                    I’m Sherif.
+                    Hello, I’m Sherif.
                     I create things for the web.
                   </p>
-                  <a href="projects.html">More -></a>
                 </div>
               </div>
             </div>

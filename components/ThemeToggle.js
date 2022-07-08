@@ -2,7 +2,7 @@ const ThemeToggleTemplate = document.createElement('template');
 
 ThemeToggleTemplate.innerHTML =
   `
-  <link href="../index.css" rel="stylesheet"></link>
+  <link href="../global.css" rel="stylesheet"></link>
   <link href="./components/themeToggle.css" rel="stylesheet"></link>
   <section class="buttons">
   <div class="border-one">

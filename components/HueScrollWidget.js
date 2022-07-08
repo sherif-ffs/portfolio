@@ -17,8 +17,6 @@ class HueScrollWidget extends HTMLElement {
         </div>
       </div>
       </section>
-
-
     `;
   }
 }

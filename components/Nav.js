@@ -3,14 +3,13 @@ const NavigationTemplate = document.createElement('template');
 NavigationTemplate.innerHTML =
   `
   <link href="./components/nav.css" rel="stylesheet"></link>
-  <link href="../index.css" rel="stylesheet"></link>
+  <link href="../global.css" rel="stylesheet"></link>
   <header>
       <div class="border-two">
         <div class="border-three">
           <div class="border-four">
             <div class="contact">
               <a href="index.html">Home</a>
-              <a href="projects.html">Projects</a>
             </div>
           </div>
         </div>

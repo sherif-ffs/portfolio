@@ -2,9 +2,9 @@ const linksBlockTemplate = document.createElement('template');
 
 linksBlockTemplate.innerHTML =
   `
-  <link href="../index.css" rel="stylesheet"></link>
+  <link href="../global.css" rel="stylesheet"></link>
   <link href="./components/linksBlock.css" rel="stylesheet"></link>
-  <section class="modal">
+  <section class="links">
     <div class="border-one">
       <div class="border-two">
         <div class="border-three">
