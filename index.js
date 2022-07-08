@@ -1,6 +1,21 @@
 const root = document.documentElement;
 const doc = document.firstElementChild;
 
+const sherif = document.querySelector('.sherif');
+const mask = document.querySelector('.mask');
+const modal = document.querySelector('.about-me');
+
+mask.addEventListener('click', () => {
+  mask.classList.remove('open')
+  modal.classList.add('dismiss')
+});
+
+sherif.addEventListener('click', () => {
+  mask.classList.add('open')
+  modal.classList.remove('dismiss')
+  modal.classList.add('selected')
+})
+
 const hueInput = document.querySelector('hue-scroll-widget')
 const themeToggle = document.querySelector('theme-toggle').shadowRoot.querySelector('.buttons')
 

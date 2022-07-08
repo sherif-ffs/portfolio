@@ -1,5 +1,4 @@
 header {
-  /* position: absolute; */
   margin-top: 10px;
   margin-left: 10px;
   display: flex;
@@ -13,4 +12,12 @@ header a {
   font-weight: bold;
   font-family: Avenir;
   margin: 0 20px;
+}
+
+@media only screen and (min-width: 1500px) {
+  header {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+  }
 }

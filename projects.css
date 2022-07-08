@@ -36,15 +36,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.music {
-  display: none;
-  bottom: 90px;
-  left: 90px;
-}
-
 .dance {
   top: 0;
-  display: none;
+  display: none!important;
 }
 
 .square {
@@ -54,7 +48,7 @@ body {
 
 @media only screen and (min-width: 1100px) {
   .dance {
-    display: block;
+    display: block!important;
   }
   .square {
     display: block;
@@ -69,9 +63,6 @@ body {
     padding: 30px;
     display: flex;
     flex-direction: column;
-  }
-  .music {
-    display: block;
   }
 }
 
