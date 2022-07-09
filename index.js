@@ -5,6 +5,12 @@ const sherif = document.querySelector('.sherif');
 const mask = document.querySelector('.mask');
 const modal = document.querySelector('.about-me');
 
+var isSafari = window.safari !== undefined;
+
+if (isSafari) {
+  document.querySelector('.dance').style.display = 'none'
+};
+
 mask.addEventListener('click', () => {
   mask.classList.add('close')
   modal.classList.add('dismiss')
@@ -28,7 +34,6 @@ hueInput.addEventListener('onkeydown', (e) => {
   root.style.setProperty('--brand-hue', e.target.value)
 
 })
-console.log({ themeToggle, doc });
 
 themeToggle.addEventListener('input', (e) => {
   console.log({ e })
