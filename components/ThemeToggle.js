@@ -12,13 +12,13 @@ ThemeToggleTemplate.innerHTML =
         <div class="content input-wrapper">
           <form class="toggle-theme">
             <div>
-                <input checked type="radio" id="light" name="theme" value="light" class="radio-input">
+                <input checked type="radio" id="light" name="theme" value="light" class="radio-input" aria-label="radio-button-light-theme" tabindex=0>
               </div>
               <div>
-              <input type="radio" id="dim" name="theme" value="dim" class="radio-input">
+              <input type="radio" id="dim" name="theme" value="dim" class="radio-input" aria-label="radio-button-dim-theme" tabindex=0>
             </div>
             <div>
-              <input type="radio" id="dark" name="theme" value="dark" class="radio-input">
+              <input type="radio" id="dark" name="theme" value="dark" class="radio-input" aria-label="radio-button-dark-theme" tabindex=0>
             </div>
           </form>
         </div>

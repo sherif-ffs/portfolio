@@ -20,7 +20,7 @@ class NameWidget extends HTMLElement {
               <div class="border-three">
                 <div class="border-four">
                   <p>
-                    Hello, I’m <span class="sherif">Sherif</span>.
+                    Hello, I’m <span class="sherif" tabindex=0 role="button">Sherif</span>.
                     I create things for the web.
                   </p>
                 </div>

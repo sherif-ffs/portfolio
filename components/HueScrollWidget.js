@@ -8,7 +8,7 @@ class HueScrollWidget extends HTMLElement {
           <div class="border-three">
             <div class="border-four">
               <div class="content input-wrapper">
-                <input type='range' value='200' min='0' max='260' class="brand-hue-input">
+                <input type='range' value='200' min='0' max='260' class="brand-hue-input" aria-label="hue-slider" tabindex=0 role="slider">
               </div>
             </div>
             </div>

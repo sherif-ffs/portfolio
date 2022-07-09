@@ -21,10 +21,13 @@ const hueInput = document.querySelector('hue-scroll-widget')
 const themeToggle = document.querySelector('theme-toggle').shadowRoot.querySelector('.buttons')
 
 hueInput.addEventListener('input', (e) => {
-  h = e.target.value;
   root.style.setProperty('--brand-hue', e.target.value)
 })
 
+hueInput.addEventListener('onkeydown', (e) => {
+  root.style.setProperty('--brand-hue', e.target.value)
+
+})
 console.log({ themeToggle, doc });
 
 themeToggle.addEventListener('input', (e) => {
