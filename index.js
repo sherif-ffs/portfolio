@@ -6,11 +6,12 @@ const mask = document.querySelector('.mask');
 const modal = document.querySelector('.about-me');
 
 mask.addEventListener('click', () => {
-  mask.classList.remove('open')
+  mask.classList.add('close')
   modal.classList.add('dismiss')
 });
 
 sherif.addEventListener('click', () => {
+  mask.classList.remove('close')
   mask.classList.add('open')
   modal.classList.remove('dismiss')
   modal.classList.add('selected')

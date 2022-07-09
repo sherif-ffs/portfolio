@@ -25,7 +25,6 @@ body {
   font-size: 1.35em;
   color: var(--text1);
   font-weight: bold;
-  /* font-family: Avenir; */
   font-family: var(--font-main);
 }
 
@@ -77,8 +76,8 @@ body {
   position: absolute;
   top: 50px;
   right: 50px;
-  height: 300px;
-  width: 500px;
+  height: 500px;
+  width: auto;
   aspect-ratio: 1/1;
   object-fit: contain;
   border: none;

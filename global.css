@@ -111,11 +111,24 @@
 
 body {
   display: flex;
+  width: 100vw;
+  overflow-x: hidden !important;
   background-color: var(--tile1);
   border-left: 25px solid var(--tile3);
   border-top: 25px solid var(--tile4);
   border-right: 25px solid var(--tile5);
   border-bottom: 25px solid var(--tile6);
+}
+
+@media only screen and (max-width: 550px) {
+  body {
+    display: flex;
+    background-color: var(--tile1);
+    border-left: 0 solid var(--tile3);
+    border-top: 0 solid var(--tile4);
+    border-right: 0 solid var(--tile5);
+    border-bottom: 0 solid var(--tile6);
+  }
 }
 
 body,
@@ -145,6 +158,40 @@ html {
 .border-four {
   border: 15px solid var(--tile2);
   padding: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+  .border-one {
+    border: 7px solid var(--tile5);
+  }
+  .border-two {
+    border: 7px solid var(--tile4);
+  }
+  .border-three {
+    border: 7px solid var(--tile3);
+  }
+  .border-four {
+    border: 7px solid var(--tile2);
+    padding: 7px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  main {
+    padding: 5px;
+  }
+  .border-one {
+    border: none;
+  }
+  .border-two {
+    border: none;
+  }
+  .border-three {
+    border: none;
+  }
+  .border-four {
+    border: none;
+  }
 }
 
 p {
