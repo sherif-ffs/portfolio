@@ -118,6 +118,7 @@ body {
   border-top: 25px solid var(--tile4);
   border-right: 25px solid var(--tile5);
   border-bottom: 25px solid var(--tile6);
+  position: relative;
 }
 
 @media only screen and (max-width: 550px) {
