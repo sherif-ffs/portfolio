@@ -2,7 +2,7 @@ class NavigationTemplate extends HTMLElement {
   connectedCallback() {
     this.innerHTML =
       `
-      <link href="./components/Nav.css" rel="stylesheet"></link>
+      <link href="./components/nav.css" rel="stylesheet"></link>
       <header>
           <div class="border-two">
             <div class="border-three">
