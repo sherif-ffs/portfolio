@@ -41,6 +41,7 @@ main {
   flex-direction: column;
   gap: 15px;
   padding: 20px;
+  overflow-x: hidden !important;
 }
 
 @media only screen and (min-width: 1200px) {

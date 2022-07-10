@@ -11,7 +11,7 @@ class ProjectsBlock extends HTMLElement {
         <div class="project">
           <a href="https://under-garden.vercel.app/" target="_blank">Under Garden</a>
           <p>
-          A tunneling & falling sand game built using WASM, Rust, and GLSL.
+          A tunneling & falling sand game built with WASM, Rust, and GLSL.
           </p>
         </div>
 

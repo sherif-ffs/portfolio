@@ -34,7 +34,6 @@ h3 {
   font-size: 1.75em;
   white-space: nowrap;
   color: var(--text1);
-  /* font-family: Avenir; */
   font-family: var(--font-main);
 }
 
