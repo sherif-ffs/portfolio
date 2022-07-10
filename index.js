@@ -12,6 +12,7 @@ if (isSafari) {
 };
 
 mask.addEventListener('click', () => {
+  mask.classList.remove('open')
   mask.classList.add('close')
   modal.classList.add('dismiss')
 });
@@ -24,7 +25,7 @@ sherif.addEventListener('click', () => {
 })
 
 const hueInput = document.querySelector('hue-scroll-widget')
-const themeToggle = document.querySelector('theme-toggle').shadowRoot.querySelector('.buttons')
+const themeToggle = document.querySelector('theme-toggle');
 
 hueInput.addEventListener('input', (e) => {
   root.style.setProperty('--brand-hue', e.target.value)
@@ -36,7 +37,5 @@ hueInput.addEventListener('onkeydown', (e) => {
 })
 
 themeToggle.addEventListener('input', (e) => {
-  console.log({ e })
-  console.log('e.target.value: ', e.target.value)
   doc.setAttribute('color-scheme', e.target.value)
 })

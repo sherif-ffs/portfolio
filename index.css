@@ -9,11 +9,11 @@ h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, 0.8);
   height: 100%;
   width: 100%;
-  transition: 500ms;
   cursor: pointer;
+  transition: 300ms;
 }
 
 .open {
