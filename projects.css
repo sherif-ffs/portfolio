@@ -16,6 +16,7 @@ body {
 
 .projects-heading {
   font-size: 2em;
+  color: var(--text1);
 }
 
 .projects-heading.other {
@@ -25,6 +26,7 @@ body {
 
 .project {
   margin: 15px 0;
+  color: var(--text2);
 }
 
 .project a {
@@ -38,6 +40,8 @@ body {
   font-size: 18px;
   font-weight: 500;
   text-decoration: dashed underline;
+  margin-top: 10px;
+  color: var(--text2);
 }
 
 .anime {
@@ -84,9 +88,7 @@ body {
   top: 0;
   right: 50px;
   height: auto;
-  width: 600px;
-  border: 1px solid red;
-  /* aspect-ratio: 1/1; */
+  width: 500px;
   object-fit: contain;
   border: none;
   outline: none;
