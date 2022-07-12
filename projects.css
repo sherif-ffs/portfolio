@@ -8,6 +8,7 @@ body {
   height: min-content;
   padding: 30px;
   margin: auto;
+  margin-top: 80px;
   max-width: 700px;
   display: flex;
   flex-direction: column;
@@ -78,18 +79,14 @@ body {
   }
 }
 
-.image-section {
-  height: 200px;
-  width: 200px;
-}
-
 .target-image {
   position: absolute;
-  top: 50px;
+  top: 0;
   right: 50px;
-  height: 500px;
-  width: auto;
-  aspect-ratio: 1/1;
+  height: auto;
+  width: 600px;
+  border: 1px solid red;
+  /* aspect-ratio: 1/1; */
   object-fit: contain;
   border: none;
   outline: none;
